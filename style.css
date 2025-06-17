@@ -1,0 +1,37 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #eee;
+}
+
+section {
+  padding: 2rem;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  header, section {
+    flex-direction: column;
+    text-align: center;
+  }
+}
