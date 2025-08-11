@@ -322,7 +322,7 @@ section{
 
 .timeline-content p{
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     line-height: 22px;
 }
@@ -457,4 +457,56 @@ section{
 ::-webkit-scrollbar-track{
     background-color: var(--bg-color);
     width: 50px;
+}
+
+.skills {
+  background: var(--bg-color);
+  padding: 10rem 15%;
+}
+
+.skills h2 {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.skills-box {
+  flex: 1 1 45%;
+}
+
+.skills-box h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: var(--main-color);
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.skill-list span {
+  padding: 1rem 2rem;
+  border: 2px solid var(--main-color);
+  border-radius: 3rem;
+  font-size: 1.8rem;
+  color: var(--text-color);
+  background: transparent;
+  box-shadow: 0 0 5px var(--main-color);
+  transition: 0.3s ease-in-out;
+  cursor: default;
+}
+
+.skill-list span:hover {
+  background: var(--main-color);
+  color: black;
+  transform: scale(1.05);
 }
