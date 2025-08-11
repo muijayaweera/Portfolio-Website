@@ -7,13 +7,13 @@
   font-family: "Poppins";
 }
 :root {
-  --bg-color: #080808;
-  --second-bg-color: #101010;
+  --bg-color: #003752;
+  --second-bg-color: #004E75;
   --text-color: white;
-  --main-color: #ea580c;
+  --main-color: #75D4E7;
 }
 html {
-  font-size: 45%;
+  font-size: 45%; 
   overflow-x: hidden;
 } 
 body{
@@ -51,8 +51,8 @@ body{
 span{
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #57E3ED 10%,
+        #3AD3F2 100%
     );
     background-clip: text;
     color: transparent;
@@ -75,8 +75,8 @@ span{
     border-radius: 3rem;
     background: linear-gradient(
         270deg,
-        #DF8908 10%,
-        #ff1d15 100%
+        #57E3ED 10%,
+        #3AD3F2 100%
     );
     letter-spacing: 1px;
     cursor: pointer;
