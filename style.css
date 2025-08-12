@@ -258,6 +258,7 @@ section {
 
 .skills-box {
   margin-top: 3rem;
+  gap: 10rem;
   border: 2px solid var(--main-color);
   border-radius: 3rem;
   padding: 4rem 5rem; /* less padding = shorter height */
