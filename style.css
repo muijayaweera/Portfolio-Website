@@ -95,6 +95,7 @@ section {
 }
 
 .home{ /*section 1 - home*/
+    margin-top: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -208,6 +209,8 @@ section {
     align-items: center;
     gap: 10rem;
     background: var(--bg-color);
+    padding-left: 10%;  /* instead of 15% */
+    padding-right: 10%;
 }
 
 .about-content h2{
@@ -237,12 +240,14 @@ section {
 .skills { /*section 3 - skills*/
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 6rem;
   margin-top: 10vh;
   padding: 8rem 15% 3rem 15%; 
   min-height: 60vh;
   background: var(--bg-color);
   flex-wrap: wrap;
+  padding-left: 10%;  /* instead of 15% */
+    padding-right: 10%;
 }
 
 .skills-group {
@@ -391,8 +396,8 @@ section {
     background-color: var(--bg-color);
     margin-top: 10vh;
     min-height: 80vh;
-    padding-left: 5%;  /* instead of 15% */
-    padding-right: 5%;
+    padding-left: 10%;  /* instead of 15% */
+    padding-right: 10%;
 }
 
 .projects h2 {
