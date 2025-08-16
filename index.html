@@ -205,26 +205,31 @@
 
         <div class="projects-box">
 
-            <div class="project-card">
-                <img src="images/port.png" alt="">
-
-                <h3>Portfolio Website</h3>
-
-                <p>A personal online showcase highlighting my skills, projects, and design style with a clean, user-friendly interface.</p>
-                 <div class="tech-stack">
-                Tech Stack : Flutter | Dart | Figma
-                </div>
-                <div class="project-buttons">
-  <a href="https://github.com/your-username/your-repo" target="_blank" class="btn code-btn">
-    <i class="bx bxl-github"></i> Code
-  </a>
-  <a href="your-project-details.html" class="btn readmore-btn">
-    Read More
-  </a>
+<div class="project-card">
+  <img src="images/port.png" alt="">
+  <h3>Portfolio Website</h3>
+  <p>A personal online showcase highlighting my skills, projects, and design style with a clean, user-friendly interface.</p>
+  <div class="tech-stack">
+    Tech Stack : HTML | CSS | JavaScript
+  </div>
+  <div class="project-buttons">
+    <a href="https://github.com/your-username/your-repo" target="_blank" class="btn code-btn">
+      <i class="bx bxl-github"></i> Code
+    </a>
+    <button class="btn readmore-btn" onclick="openModal('project1')">Read More</button>
+  </div>
 </div>
 
+<!-- Modal -->
+<div id="project1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('project1')">&times;</span>
+    <img src="images/port.png" alt="Project Screenshot">
+    <h2>Portfolio Website</h2>
+    <p>This is a more detailed description of the project, explaining the features, what problems it solves, and any interesting details you want to share.</p>
+  </div>
+</div>
 
-            </div>
 
             <div class="project-card">
                 <img src="images/ostocare.png" alt="">
