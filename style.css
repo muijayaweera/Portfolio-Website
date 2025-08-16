@@ -525,10 +525,10 @@ section {
 }
 
 .tech-stack {
-  background: rgba(0, 0, 0, 0.3); /* semi-transparent dark background */
+  background: var(--bg-color); /* semi-transparent dark background */
   color: #fff; /* white text */
-  padding: 0.6rem 1.2rem;
-  border-radius: 1.2rem;
+  padding: 1rem 8rem;
+  border-radius: 2.5rem;
   font-size: 1.8rem;
   font-weight: 500;
   text-align: center;
@@ -536,25 +536,44 @@ section {
   display: inline-block;
 }
 
-.code-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem; /* space between icon and text */
-    padding: 0.5rem 1rem;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: background-color 0.3s ease;
+.project-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem; /* space between buttons */
+  margin-top: 0.3rem;
 }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 6.5rem;
+  border-radius:2.5rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgb(8, 162, 189); /* subtle glow */
+}
+
+/* Code button */
+.code-btn {
+  background-color: #24292f; /* GitHub dark */
+  color: #fff;
+}
+.code-btn:hover {
+  background-color: #333;
+}
+
+/* Read more button */
+.readmore-btn {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
 
 .code-btn i {
-    font-size: 1.2rem;
+  font-size: 1.8rem;
 }
-
-.code-btn:hover {
-    background-color: #555;
-}
-
