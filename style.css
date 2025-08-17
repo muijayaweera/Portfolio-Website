@@ -525,7 +525,7 @@ section {
 }
 
 .tech-stack {
-  background: var(--bg-color); /* semi-transparent dark background */
+  background: var(--bg-color); /* semi-transparent dark background */; 
   color: #fff; /* white text */
   padding: 1rem 6.5rem;
   border-radius: 2.5rem;
